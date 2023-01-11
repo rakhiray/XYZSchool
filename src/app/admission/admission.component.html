@@ -1,0 +1,9 @@
+<div class="form">
+  <form #basicForm="ngForm" (ngSubmit)="getData(basicForm.value)">
+    <input type="text" ngModel name="fname" placeholder="First Name"><br><br>
+    <input type="text" ngModel name="lname" placeholder="Last Name"><br><br>
+    <input type="text" ngModel name="email" placeholder="Email"><br><br>
+    <input type="text" ngModel name="phone" placeholder="Phone"><br><br>
+    <button mat-raised-button color="primary">Register</button>
+  </form>
+</div>

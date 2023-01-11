@@ -1,0 +1,18 @@
+.row{    
+    color: white;    
+}
+
+address { 
+    display: block;
+    font-style: italic;
+} 
+
+.footer{
+    background-color: #3f51b5;
+    position: fixed;
+  /* left: 0; */
+  bottom: 0;
+  width: 100%;
+
+}
+
